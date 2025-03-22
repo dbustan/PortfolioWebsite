@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(42, 162, 162);
+}
+.navbar {
+    width: 100%vw;
+    left: 0;
+    font-family: "Lucida Console";
+    background-color: #5ec8c4f9;
+    padding: 10px ;
+    text-align: center;
+    color: black;
+    position: sticky;
+    top: -1000px;
+    transition: top 0.3s ease-in-out;
+    z-index: 1000;
+    border-radius: 0px 0px 10px 10px;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li{
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
+
+@media (max-width: 768px){
+    .navbar {
+        display: none;
+    }
+}
+
+body {
+    height: 2000px;
+}
+
+section {
+    font-size: 48;
+}
+
