@@ -52,4 +52,19 @@ body {
 section {
     font-size: 48;
 }
+.tv {
+    display: flex;
+    width: 60%;
+    position: relative;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40px;
+    justify-content: center;   
+    align-items: center;   
+}
 
+.responsive-innerbox{
+ 
+
+}
